@@ -26,6 +26,8 @@
     "require": {
         "php": "~7.1",
         "ext-openssl": "*",
+        "ext-json": "*",
+        "ext-intl": "*",
         "guzzlehttp/guzzle": "~6.0",
         "psr/log": "^1.0"
     },
