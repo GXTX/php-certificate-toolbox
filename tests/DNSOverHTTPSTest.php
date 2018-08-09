@@ -40,8 +40,8 @@ class DNSOverHTTPSTest extends TestCase
      */
     public function testFakeDoHServer()
     {
-        $client = new DNSOverHTTPS('example.com/example');
-        $client->checkChallenge('example.com', '');
+        $client = new DNSOverHTTPS();
+        $client->getDNS('example.com', '', 'https://example.com/.well-known/');
     }
 
     /**
